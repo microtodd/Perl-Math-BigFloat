@@ -1,0 +1,18 @@
+61d60
+< 
+133a133
+> 
+143,146d142
+<   
+<   # save out base_len
+<   $self->{base_len} = $MBI->_base_len;
+<   
+369,376d364
+<   if ($x->{base_len}) {
+<     if ($x->{base_len} > 7) {
+<         $MBI->_base_len( $x->{base_len}, 1 );
+<     } else {
+<         $MBI->_base_len( $x->{base_len}, 0 );
+<     }
+<   }
+<   
